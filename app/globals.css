@@ -8,24 +8,32 @@
   }
   /*Wrapper*/
   .section__wrapper {
-    @apply px-6 py-16 md:py-24 max-w-7xl mx-auto;
+    @apply px-6 py-16 lg:py-24 max-w-7xl mx-auto;
   }
   /* Button Primary */
   .btn__primary {
-    @apply bg-secondary-500 px-8 md:px-10 tracking-widest text-neutrals-500 h-12 md:h-14 flex justify-center items-center flex-1 uppercase font-bold w-fit gap-3 rounded-xl mt-7 md:mt-9;
+    @apply bg-secondary-500 px-8 lg:px-10 tracking-widest text-neutrals-500 h-12 lg:h-14 flex justify-center items-center flex-1 uppercase font-bold w-fit gap-3 rounded-xl mt-7 lg:mt-9;
   }
 
   /*Typography*/
   .heading__1 {
-    @apply text-4xl-mobile leading-tight-mobile md:text-4xl font-regular md:leading-tight tracking-tighter text-primary-500;
+    @apply text-4xl-mobile leading-tight-mobile lg:text-4xl font-regular lg:leading-tight tracking-tighter text-primary-500;
+  }
+
+  .heading__2 {
+    @apply text-4xl-mobile leading-tight-mobile lg:text-3xl font-regular lg:leading-tight tracking-tighter;
+  }
+
+  .heading__3 {
+    @apply text-4xl-mobile leading-tight-mobile lg:text-2xl font-regular lg:leading-tight tracking-tight;
   }
 
   .text__overline {
-    @apply text-sm-mobile md:text-base text-primary-700 tracking-widest uppercase mb-10 md:mb-12;
+    @apply text-sm-mobile lg:text-base text-primary-700 tracking-widest uppercase mb-10 lg:mb-12;
   }
 
   .body__large {
-    @apply text-base md:text-lg font-light text-primary-500 leading-loose-mobile md:leading-loose;
+    @apply text-base lg:text-lg font-light text-primary-500 leading-loose-mobile lg:leading-loose;
   }
 
   .caption {
@@ -39,4 +47,10 @@ a {
 
 a:hover {
   opacity: 0.8;
+}
+
+.benefits__cards--wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
+  gap: 3rem;
 }

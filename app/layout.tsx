@@ -10,7 +10,6 @@ const camphor = localFont({
     { path: './assets/fonts/camphor_bold.woff2', weight: '700' },
   ],
   variable: '--font-camphor',
-  display: 'swap',
 });
 
 export const metadata: Metadata = {

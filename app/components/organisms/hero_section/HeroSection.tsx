@@ -12,37 +12,42 @@ export default function HeroSection() {
           ({ id, overline, headline, body, icon, cta, link, img, alt }) => {
             return (
               <div
-                className="hero__section--content md:flex md:gap-16 md:items-center"
+                className="hero__section--content lg:flex lg:gap-6 lg:items-center"
                 key={id}
               >
-                <div className="hero__section--content-copy md:w-1/2">
+                <div className="hero__section--content-copy lg:w-1/2">
                   <p className="text__overline">{overline}</p>
-                  <h1 className="heading__1 md:hidden">{headline}</h1>
-                  <h1 className="heading__1 hidden md:inline">
+                  <h1 className="heading__1 lg:hidden">{headline}</h1>
+                  <h1 className="heading__1 hidden lg:inline">
                     <Balancer>{headline}</Balancer>
                   </h1>
-                  <p className="body__large mt-6 md:mt-8">{body}</p>
+                  <p className="body__large mt-6 lg:mt-8">
+                    <Balancer ratio={0.35} preferNative={false}>
+                      {body}
+                    </Balancer>
+                  </p>
                   <ButtonPrimary path={link} icon={icon} cta={cta} />
                 </div>
-                <div className="hero__section--content-image md:w-1/2 mt-12 md:mt-0">
+                <div className="hero__section--content-image lg:w-1/2 mt-12 lg:mt-0">
                   <Image
                     src={img}
                     alt={alt}
                     priority={true}
-                    className="rounded-xl opacity-75"
+                    className="rounded-xl opacity-85 w-full"
                   />
                 </div>
               </div>
             );
           }
         )}
-        <div className="hero__footer md:flex md:justify-between md:gap-16">
+        <div className="hero__footer lg:flex lg:justify-between lg:gap-16">
           <div className="google__rating md:w-1/2">
             <GoogleBadge />
           </div>
-          <p className="caption w-1/2 max-w-40 hidden md:inline">
+          <p className="caption w-1/2 max-w-40 hidden lg:inline">
             <Balancer>
-              Rodrigo Canales, designer gráfico e digital há mais de 30 anos.
+              <strong>Rodrigo Canales</strong>, designer gráfico e digital há
+              mais de 30 anos.
             </Balancer>
           </p>
         </div>

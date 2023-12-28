@@ -27,7 +27,7 @@ const config: Config = {
       '4xl-mobile': '2.5rem',
     },
     lineHeight: {
-      tight: '4.5rem',
+      tight: '105.88%',
       'tight-mobile': '2.75rem',
       loose: '1.75rem',
       'loose-mobile': '1.5rem',

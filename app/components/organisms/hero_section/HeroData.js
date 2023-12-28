@@ -1,5 +1,5 @@
 import { FaWhatsapp } from 'react-icons/fa';
-import Photo from '@/public/img/rodrigo-canales-design-hero-section.webp';
+import Photo from '@/public/img/rodrigo-canales-design-hero-section-ok.webp';
 
 const HeroContent = [
   {
