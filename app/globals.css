@@ -3,4 +3,40 @@
 @tailwind utilities;
 
 @layer components {
+  .lp__body {
+    @apply font-sans;
+  }
+  /*Wrapper*/
+  .section__wrapper {
+    @apply px-6 py-16 md:py-24 max-w-7xl mx-auto;
+  }
+  /* Button Primary */
+  .btn__primary {
+    @apply bg-secondary-500 px-8 md:px-10 tracking-widest text-neutrals-500 h-12 md:h-14 flex justify-center items-center flex-1 uppercase font-bold w-fit gap-3 rounded-xl mt-7 md:mt-9;
+  }
+
+  /*Typography*/
+  .heading__1 {
+    @apply text-4xl-mobile leading-tight-mobile md:text-4xl font-regular md:leading-tight tracking-tighter text-primary-500;
+  }
+
+  .text__overline {
+    @apply text-sm-mobile md:text-base text-primary-700 tracking-widest uppercase mb-10 md:mb-12;
+  }
+
+  .body__large {
+    @apply text-base md:text-lg font-light text-primary-500 leading-loose-mobile md:leading-loose;
+  }
+
+  .caption {
+    @apply text-sm text-primary-500 leading-x-loose tracking-wider;
+  }
+}
+
+a {
+  transition: all 400ms ease-in-out;
+}
+
+a:hover {
+  opacity: 0.8;
 }

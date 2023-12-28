@@ -4,6 +4,7 @@ import './globals.css';
 
 const camphor = localFont({
   src: [
+    { path: './assets/fonts/camphor_light.woff2', weight: '300' },
     { path: './assets/fonts/camphor_regular.woff2', weight: '400' },
     { path: './assets/fonts/camphor_medium.woff2', weight: '500' },
     { path: './assets/fonts/camphor_bold.woff2', weight: '700' },
@@ -33,8 +34,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="pt-BR">
-      <body className={`${camphor.variable} font-sans`}>{children}</body>
+    <html lang="pt-BR" className={`${camphor.variable}`}>
+      <body className="bg-neutrals-500 lp__body">{children}</body>
     </html>
   );
 }
