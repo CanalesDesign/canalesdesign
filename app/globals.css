@@ -23,7 +23,7 @@
   }
 
   .heading__2 {
-    @apply text-3xl-mobile lg:text-3xl font-regular leading-tight tracking-tighter;
+    @apply text-3xl-mobile lg:text-3xl font-regular leading-tight tracking-tight;
   }
 
   .heading__3 {

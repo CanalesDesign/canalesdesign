@@ -1,4 +1,5 @@
 import BenefitsSection from './components/organisms/benefits_section/BenefitsSection';
+import CustomersSection from './components/organisms/customers_section/CustomersSection';
 import HeroSection from './components/organisms/hero_section/HeroSection';
 import ReviewsSection from './components/organisms/reviews_section/ReviewsSection';
 
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <BenefitsSection />
       <ReviewsSection />
+      <CustomersSection />
     </main>
   );
 }

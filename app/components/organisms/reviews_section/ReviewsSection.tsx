@@ -23,7 +23,7 @@ export default function ReviewsSection() {
         })}
 
         <div className="google__cards--wrapper grid">
-          {Reviews.map(({ id, img, people, logo, testimonial }) => {
+          {Reviews.map(({ id, img, alt, people, logo, testimonial }) => {
             return (
               <div
                 className="google__cards rounded-xl bg-neutrals-500"
@@ -31,6 +31,7 @@ export default function ReviewsSection() {
               >
                 <GoogleCard
                   img={img}
+                  alt={alt}
                   people={people}
                   logo={logo}
                   testimonial={testimonial}

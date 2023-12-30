@@ -8,7 +8,7 @@ const config: Config = {
   ],
   theme: {
     fontFamily: {
-      sans: ['var(--font-camphor), ui-sans-serif'],
+      sans: ['var(--font-camphor)', 'system-ui'],
     },
     fontWeight: {
       light: '300',
@@ -34,6 +34,15 @@ const config: Config = {
       loose: '120%',
       'x-loose': '140%',
       'xx-loose': '160%',
+    },
+    letterSpacing: {
+      tightest: '-.065em',
+      tighter: '-.035em',
+      tight: '-.025em',
+      normal: '0',
+      wide: '.025em',
+      wider: '.05em',
+      widest: '.20em',
     },
     colors: {
       primary: {

@@ -10,6 +10,7 @@ const camphor = localFont({
     { path: './assets/fonts/camphor_bold.woff2', weight: '700' },
   ],
   variable: '--font-camphor',
+  fallback: ['system-ui', 'arial'],
 });
 
 export const metadata: Metadata = {
@@ -34,7 +35,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className={`${camphor.variable}`}>
-      <body className="bg-neutrals-500 lp__body">{children}</body>
+      <body className="font-sans bg-neutrals-500 lp__body">{children}</body>
     </html>
   );
 }
