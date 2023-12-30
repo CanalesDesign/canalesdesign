@@ -16,24 +16,28 @@ const BenefitsCards = [
   {
     id: 1,
     icon: GrowIcon,
+    alt: 'Crescimento Icone',
     subtitle: 'Base para o crescimento.',
     body: 'Uma Identidade Visual é a base para crescer de maneira consistente.',
   },
   {
     id: 2,
     icon: EyeIcon,
+    alt: 'Impacto Icone',
     subtitle: 'Impacto duradouro.',
     body: 'Consolide-se com uma memória de marca forte e reconhecível.',
   },
   {
     id: 3,
     icon: DiamondIcon,
+    alt: 'Diferenciação Icone',
     subtitle: 'Diferenciação única.',
     body: 'Seja inesquecível e construa uma presença consistente no mercado.',
   },
   {
     id: 4,
     icon: HeartIcon,
+    alt: 'engajamento Icone',
     subtitle: 'Engajamento eficaz.',
     body: 'Conquiste fideliedade fazendo da sua marca uma experiência única.',
   },

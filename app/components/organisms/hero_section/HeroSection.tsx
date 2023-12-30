@@ -21,7 +21,7 @@ export default function HeroSection() {
                   <h1 className="heading__1 hidden lg:inline">
                     <Balancer>{headline}</Balancer>
                   </h1>
-                  <p className="body__large mt-6 lg:mt-8">
+                  <p className="body__xlarge mt-6 lg:mt-8">
                     <Balancer ratio={0.35} preferNative={false}>
                       {body}
                     </Balancer>
@@ -44,7 +44,7 @@ export default function HeroSection() {
           <div className="google__rating md:w-1/2">
             <GoogleBadge />
           </div>
-          <p className="caption w-1/2 max-w-40 hidden lg:inline">
+          <p className="body__x-sm w-1/2 max-w-40 hidden lg:inline">
             <Balancer>
               <strong>Rodrigo Canales</strong>, designer gráfico e digital há
               mais de 30 anos.

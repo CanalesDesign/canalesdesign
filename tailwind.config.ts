@@ -17,21 +17,23 @@ const config: Config = {
       bold: '700',
     },
     fontSize: {
-      sm: '0.75rem',
+      'x-sm': '0.75rem',
       'sm-mobile': '0.85rem',
+      sm: '0.875',
       base: '1rem',
-      lg: '1.25rem',
+      lg: '1.125rem',
+      xl: '1.25rem',
       '2xl': '1.5rem',
       '3xl': '3.25rem',
+      '3xl-mobile': '2rem',
       '4xl': '4.25rem',
       '4xl-mobile': '2.5rem',
     },
     lineHeight: {
-      tight: '105.88%',
-      'tight-mobile': '2.75rem',
-      loose: '1.75rem',
-      'loose-mobile': '1.5rem',
-      'x-loose': '1.275rem',
+      tight: '105%',
+      loose: '120%',
+      'x-loose': '140%',
+      'xx-loose': '160%',
     },
     colors: {
       primary: {
@@ -47,6 +49,7 @@ const config: Config = {
       },
       neutrals: {
         500: '#252525',
+        600: '#1A1A1A',
       },
       extend: {},
     },

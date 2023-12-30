@@ -6,10 +6,10 @@ export default function Card(props: any) {
     <div className="card">
       <div className="card__wrapper">
         <Image src={props.icon} alt={props.alt} />
-        <h3 className="heading__3 text-primary-900 mt-6 mb-1">
+        <h3 className="heading__3 text-primary-900 mt-6 mb-2">
           {props.subtitle}
         </h3>
-        <p className="text-base text-primary-900">
+        <p className="body__large text-primary-900">
           <Balancer ratio={0.15} preferNative={false}>
             {props.body}
           </Balancer>
