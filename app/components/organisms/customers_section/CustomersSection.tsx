@@ -8,22 +8,25 @@ export default function CustomersSection() {
       <div className="customers__section--wrapper section__wrapper">
         {CustomersIntro.map(({ id, overline, headline, body }) => {
           return (
-            <div className="customers__section--intro" key={id}>
+            <div
+              className="customers__section--intro flex flex-col items-center"
+              key={id}
+            >
               <p className="text__overline">{overline}</p>
-              <div className="headline__body--wrapper flex justify-between ">
-                <h2 className="heading__2 text-primary-900 w-10/12">
-                  <Balancer>{headline}</Balancer>
-                </h2>
-                <p className="body__xlarge text-primary-900 w-1/2">{body}</p>
-              </div>
+              <h2 className="heading__2 text-primary-900 text-center">
+                <Balancer>{headline}</Balancer>
+              </h2>
+              <p className="body__xlarge text-primary-900 text-center mt-6 lg:mt-8 mb-12 lg:mb-0 max-w-2xl ">
+                <Balancer>{body}</Balancer>
+              </p>
             </div>
           );
         })}
-        <div className="customers__logos--content flex justify-between gap-2 mt-10">
+        <div className="customers__logos--content grid grid-cols-2 md:grid-cols-6 gap-6 items-center mt-2 lg:mt-16">
           {CustomersLogos.map(({ id, customer, alt }) => {
             return (
-              <div className="customers" key={id}>
-                <Image src={customer} alt={alt} width={200} height={200} />
+              <div className="customers w-[150px] justify-self-center" key={id}>
+                <Image src={customer} alt={alt} />
               </div>
             );
           })}

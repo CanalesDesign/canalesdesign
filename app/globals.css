@@ -59,6 +59,7 @@ html,
 body {
   scroll-behavior: smooth !important;
 }
+
 a {
   transition: all 400ms ease-in-out;
 }
@@ -76,3 +77,10 @@ a:hover {
   grid-template-columns: repeat(auto-fill, minmax(22rem, 1fr));
   gap: 1.5rem;
 }
+
+/* .customers__logos--content {
+  grid-template-columns: repeat(auto-fill, minmax(10rem, 2fr));
+  grid-template-columns: repeat(6, 2fr);
+  gap: 1.5rem;
+  align-items: center;
+} */

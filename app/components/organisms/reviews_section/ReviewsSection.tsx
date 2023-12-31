@@ -11,22 +11,22 @@ export default function ReviewsSection() {
         {ReviewsIntro.map(({ id, overline, headline }) => {
           return (
             <div
-              className="reviews__intro text-center flex flex-col items-center mb-24"
+              className="reviews__intro text-center flex flex-col items-center mb-16 md:mb-24"
               key={id}
             >
               <p className="text__overline">{overline}</p>
-              <h2 className="heading__2 w-2/3 text-center text-primary-500">
+              <h2 className="heading__2 md:w-2/3 text-center text-primary-500">
                 <Balancer>{headline}</Balancer>
               </h2>
             </div>
           );
         })}
 
-        <div className="google__cards--wrapper grid">
+        <div className="google__cards--wrapper md:grid">
           {Reviews.map(({ id, img, alt, people, logo, testimonial }) => {
             return (
               <div
-                className="google__cards rounded-xl bg-neutrals-500"
+                className="google__cards mb-6 md:mb-0 rounded-xl bg-neutrals-500"
                 key={id}
               >
                 <GoogleCard

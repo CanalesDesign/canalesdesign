@@ -1,11 +1,15 @@
-import { FaWhatsapp } from 'react-icons/fa';
-import ItaipuLogo from '@/public/img/itaipu-binacional.svg';
-import PositivoLogo from '@/public/img/positivo.svg';
-import PucLogo from '@/public/img/pucpr.svg';
-import LiquigasLogo from '@/public/img/liquigas.svg';
-import FundoIguacuLogo from '@/public/img/fundo-iguacu.svg';
-import VotorantimLogo from '@/public/img/votorantim.svg';
-import OABPRLogo from '@/public/img/oab-pr-logo.svg';
+import ItaipuLogo from '@/public/img/customers/itaipu-binacional.svg';
+import PositivoLogo from '@/public/img/customers/positivo.svg';
+import PucLogo from '@/public/img/customers/puc-pr.svg';
+import LiquigasLogo from '@/public/img/customers/liquigas.svg';
+import FundoIguacuLogo from '@/public/img/customers/fundo-iguacu.svg';
+import VotorantimLogo from '@/public/img/customers/votorantim.svg';
+import OABPRLogo from '@/public/img/customers/oab-pr.svg';
+import RaccoLogo from '@/public/img/customers/racco.svg';
+import WegLogo from '@/public/img/customers/weg.svg';
+import MuellerLogo from '@/public/img/customers/mueller-joinville.svg';
+import MoreMomentsLogo from '@/public/img/customers/more-moments-more-memories.svg';
+import EquipLogo from '@/public/img/customers/equip-our-kids.svg';
 
 const CustomersIntro = [
   {
@@ -51,6 +55,31 @@ const CustomersLogos = [
     id: 7,
     customer: OABPRLogo,
     alt: 'OAB PR',
+  },
+  {
+    id: 8,
+    customer: RaccoLogo,
+    alt: 'Racco Produtos de Higiene e Limpeza',
+  },
+  {
+    id: 9,
+    customer: WegLogo,
+    alt: 'Weg Produtos Elétricos',
+  },
+  {
+    id: 10,
+    customer: MuellerLogo,
+    alt: 'Shopping Mueller Joinville',
+  },
+  {
+    id: 11,
+    customer: MoreMomentsLogo,
+    alt: 'More Moments More Memories Foundation',
+  },
+  {
+    id: 12,
+    customer: EquipLogo,
+    alt: 'Equip Our Kids',
   },
 ];
 
