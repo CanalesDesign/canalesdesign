@@ -14,7 +14,7 @@
 
   /* Button Primary */
   .btn__primary {
-    @apply bg-secondary-500 px-8 lg:px-10 tracking-widest text-neutrals-500 h-12 lg:h-14 flex justify-center items-center flex-1 uppercase font-bold w-fit gap-3 rounded-xl mt-7 lg:mt-9;
+    @apply bg-secondary-500 px-8 lg:px-10 tracking-wider text-neutrals-500 h-12 lg:h-14 flex justify-center items-center flex-1 uppercase font-bold w-fit gap-3 rounded-xl mt-7 lg:mt-9;
   }
 
   /*Typography*/
@@ -27,7 +27,7 @@
   }
 
   .heading__3 {
-    @apply text-2xl font-regular leading-tight tracking-tight;
+    @apply text-2xl font-regular leading-loose tracking-tight;
   }
 
   .text__overline {
@@ -78,9 +78,9 @@ a:hover {
   gap: 1.5rem;
 }
 
-/* .customers__logos--content {
-  grid-template-columns: repeat(auto-fill, minmax(10rem, 2fr));
-  grid-template-columns: repeat(6, 2fr);
+.faq__section--questions {
+  grid-template-columns: repeat(auto-fill, minmax(32rem, 1fr));
   gap: 1.5rem;
-  align-items: center;
-} */
+}
+
+/*Slider*/
