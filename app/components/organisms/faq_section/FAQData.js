@@ -27,14 +27,14 @@ const FAQQuestions = [
     number: '3.',
     question: 'O que está incluído no projeto?',
     answer:
-      'Cada projeto tem suas características próprias mas, normalmente, a base é o design do logotipo seguido de peças descritas na proposta e ajustadas durante reunião prévia, além da entrega dos arquivos em todos os formatos de arquivo necessários.',
+      'Além do design do logotipo, estão incluídas as peças combinadas em proposta que variam de acordo com cada projeto esão entregues nos formatos de arquivos necessários (vetores e imagens).',
   },
   {
     id: 4,
     number: '4.',
     question: 'Posso solicitar um orçamento sem compromisso?',
     answer:
-      'Solicitar um orçamento é fácil. Basta clicar no botão “Converse Comigo“ para que eu possa pegar alguns detalhes para poder fornecer uma proposta bem ajustada as necessidades do cliente.',
+      'Solicitar um orçamento é fácil. Basta clicar no botão “Converse Comigo“ para que eu possa pegar alguns detalhes para poder fornecer uma proposta bem ajustada às necessidades do cliente.',
   },
   {
     id: 5,

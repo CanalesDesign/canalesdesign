@@ -1,17 +1,46 @@
+import { FaInstagram } from 'react-icons/fa';
+import { FaLinkedinIn } from 'react-icons/fa';
+import { FaFacebookF } from 'react-icons/fa';
+import NextLogo from '../../../../public/img/next-js-logo.svg';
+import RodrigoCanales from '../../../../public/img/rodrigo-canales-designer.webp';
+
 const FooterContent = [
   {
     id: 1,
-    headline: 'Transforme sua marca com uma identidade visual profissional.',
-    body: 'Destaque-se da concorrência com uma identidade visual de impacto capaz de se conectar com seus clientes. Inicie uma conversa e coloque sua marca no caminho certo.',
-    instagramicon: '',
+    photo: RodrigoCanales,
+    alt: 'Rodrigo Canales – Designer',
+    headline: 'Sua marca, nossa expertise.',
+    body: 'Sinta a diferença que a paixão de mais de 30 anos pelo design faz. Rodrigo Canales, designer multidisciplinar, oferece sua especialização em Identidade Visual para criar narrativas visuais autênticas e impactantes para sua marca.',
+    instagramicon: <FaInstagram />,
     instagrampath: 'https://www.instagram.com/canales_design',
-    linkedinicon: '',
+    linkedinicon: <FaLinkedinIn />,
     linkedinpath: 'https://www.linkedin.com/in/rodcanales/',
-    facebookicon: '',
+    facebookicon: <FaFacebookF />,
     facebookpath: 'https://web.facebook.com/canalesdesign/',
     cta: 'portfolio',
     path: 'https://canalesid.com.br',
   },
 ];
 
-export default FooterContent;
+const FooterContact = [
+  {
+    id: 1,
+    whatsapp: '+55 41 99753.2248',
+    whatsapplink: 'https://api.whatsapp.com/send?phone=5541997532248',
+    telegram: '@RodrigoCanales',
+    telegramlink: '',
+    email: 'contato@canalesdesign.com.br',
+    emaillink: 'mailto:contato@canalesdesign.com',
+  },
+];
+
+const NextContent = [
+  {
+    id: 1,
+    headline: 'Desenvolvido com',
+    logo: NextLogo,
+    alt: 'Next JS Logo',
+  },
+];
+
+export { FooterContent, FooterContact, NextContent };

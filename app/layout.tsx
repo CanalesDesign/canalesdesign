@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import localFont from 'next/font/local';
 import './globals.css';
+import Analytics from './components/analytics/GTMTag';
 
 const camphor = localFont({
   src: [
@@ -10,7 +11,7 @@ const camphor = localFont({
     { path: './assets/fonts/camphor_bold.woff2', weight: '700' },
   ],
   variable: '--font-camphor',
-  fallback: ['system-ui', 'arial'],
+  fallback: ['system-ui', 'sans'],
 });
 
 export const metadata: Metadata = {
@@ -35,7 +36,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR" className={`${camphor.variable}`}>
-      <body className="font-sans bg-neutrals-500 lp__body">{children}</body>
+      <body className="font-sans bg-neutrals-500 lp__body">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }

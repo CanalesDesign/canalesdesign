@@ -107,3 +107,11 @@ a:hover {
   background-color: #eb6439 !important;
   opacity: 1 !important;
 }
+
+.links__wrapper > a {
+  color: #eb6439;
+}
+
+.links__wrapper svg {
+  fill: #eb6439;
+}
