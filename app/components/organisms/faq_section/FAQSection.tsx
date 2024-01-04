@@ -1,5 +1,6 @@
 import Balancer from 'react-wrap-balancer';
 import { FAQIntro, FAQQuestions } from './FAQData';
+import FAQCarousel from '../../molecules/FAQCarousel';
 
 export default function FAQSection() {
   return (
@@ -15,12 +16,11 @@ export default function FAQSection() {
             </div>
           );
         })}
-        <div className="responsive__div--small">
-          <div className="faq__section--questions"></div>
+        <div className="responsive__div--small md:hidden">
+          <FAQCarousel />
         </div>
-
         <div className="responsive__div--large hidden md:inline">
-          <div className="faq__section--questions md:inline grid">
+          <div className="faq__section--questions grid">
             {FAQQuestions.map(({ id, number, question, answer }) => {
               return (
                 <div
@@ -31,7 +31,7 @@ export default function FAQSection() {
                     {number}
                   </span>
                   <h3 className="heading__3 mt-6 mb-4">{question}</h3>
-                  <p className="body__large">{answer}</p>
+                  <p className="body__large leading-x-loose">{answer}</p>
                 </div>
               );
             })}

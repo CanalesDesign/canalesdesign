@@ -84,3 +84,26 @@ a:hover {
 }
 
 /*Slider*/
+.swiper-slide {
+  padding-bottom: 24px;
+}
+.swiper-horizontal
+  > .swiper-pagination-bullets.swiper-pagination-bullets.swiper-pagination-horizontal {
+  position: relative !important;
+  bottom: 0 !important;
+  top: 0 !important;
+}
+
+#reviews .swiper-pagination-bullet {
+  background-color: #98876c !important;
+  opacity: 1 !important;
+}
+#reviews .swiper-pagination-bullet-active {
+  background-color: #eb6439 !important;
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #eb6439 !important;
+  opacity: 1 !important;
+}

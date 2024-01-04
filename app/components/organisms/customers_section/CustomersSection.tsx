@@ -16,7 +16,7 @@ export default function CustomersSection() {
               <h2 className="heading__2 text-primary-900 text-center">
                 <Balancer>{headline}</Balancer>
               </h2>
-              <p className="body__xlarge text-primary-900 text-center mt-6 lg:mt-8 mb-12 lg:mb-0 max-w-2xl ">
+              <p className="body__xlarge text-primary-900 text-center mt-6 lg:mt-8 mb-12 lg:mb-0 max-w-2xl">
                 <Balancer>{body}</Balancer>
               </p>
             </div>

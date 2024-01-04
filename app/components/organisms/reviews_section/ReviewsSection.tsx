@@ -3,6 +3,7 @@ import GoogleCard from '../../molecules/GoogleCard';
 import { ReviewsIntro, Reviews } from './GoogleReviewsData';
 import Balancer from 'react-wrap-balancer';
 import { FiArrowUpRight } from 'react-icons/fi';
+import GoogleReviewsCarousel from '../../molecules/GoogleReviewsCarousel';
 
 export default function ReviewsSection() {
   return (
@@ -22,7 +23,11 @@ export default function ReviewsSection() {
           );
         })}
 
-        <div className="google__cards--wrapper md:grid">
+        <div className="responsive__div--small md:hidden">
+          <GoogleReviewsCarousel />
+        </div>
+
+        <div className="google__cards--wrapper hidden md:grid">
           {Reviews.map(({ id, img, alt, people, logo, testimonial }) => {
             return (
               <div
