@@ -21,6 +21,8 @@ export default function CTASection() {
                   path={item.path}
                   icon={item.icon}
                   cta={item.cta}
+                  rel="noopener noreferrer"
+                  target="_blank"
                 />
               </div>
             </div>

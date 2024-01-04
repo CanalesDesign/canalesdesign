@@ -26,7 +26,13 @@ export default function HeroSection() {
                       {body}
                     </Balancer>
                   </p>
-                  <ButtonPrimary path={link} icon={icon} cta={cta} />
+                  <ButtonPrimary
+                    path={link}
+                    icon={icon}
+                    cta={cta}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  />
                 </div>
                 <div className="hero__section--content-image lg:w-1/2 mt-12 lg:mt-0">
                   <Image
