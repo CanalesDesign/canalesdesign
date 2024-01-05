@@ -28,7 +28,7 @@ const FooterContact = [
     whatsapp: '+55 41 99753.2248',
     whatsapplink: 'https://api.whatsapp.com/send?phone=5541997532248',
     telegram: '@RodrigoCanales',
-    telegramlink: 'https://l1nq.com/canales-telegram',
+    telegramlink: 'https://t.me/@RodrigoCanales',
     email: 'contato@canalesdesign.com.br',
     emaillink: 'mailto:contato@canalesdesign.com',
   },

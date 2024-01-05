@@ -33,6 +33,8 @@ export default function FooterSection() {
                   <Link
                     className="uppercase text-x-sm tracking-widest font-bold"
                     href={item.path}
+                    rel="noopener noreferrer"
+                    target="_blank"
                   >
                     {item.cta}
                   </Link>

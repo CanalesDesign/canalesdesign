@@ -12,6 +12,8 @@ const HeroContent = [
     link: 'https://api.whatsapp.com/send?phone=5541997532248',
     img: Photo,
     alt: 'Rodrigo Canales Designer',
+    rel: 'noopener noreferrer',
+    target: '_blank',
   },
 ];
 

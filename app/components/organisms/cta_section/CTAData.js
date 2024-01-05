@@ -8,6 +8,8 @@ const CTAContent = [
     icon: <FaWhatsapp />,
     cta: 'converse comigo',
     path: 'https://api.whatsapp.com/send?phone=5541997532248',
+    rel: 'noopener noreferrer',
+    target: '_blank',
   },
 ];
 

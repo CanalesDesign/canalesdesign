@@ -9,7 +9,19 @@ export default function HeroSection() {
     <section className="hero__section">
       <div className="hero__section--container section__wrapper flex flex-col gap-9">
         {HeroContent.map(
-          ({ id, overline, headline, body, icon, cta, link, img, alt }) => {
+          ({
+            id,
+            overline,
+            headline,
+            body,
+            icon,
+            cta,
+            link,
+            img,
+            alt,
+            rel,
+            target,
+          }) => {
             return (
               <div
                 className="hero__section--content lg:flex lg:gap-6 lg:items-center"
@@ -30,8 +42,8 @@ export default function HeroSection() {
                     path={link}
                     icon={icon}
                     cta={cta}
-                    rel="noopener noreferrer"
-                    target="_blank"
+                    rel={rel}
+                    target={target}
                   />
                 </div>
                 <div className="hero__section--content-image lg:w-1/2 mt-12 lg:mt-0">
