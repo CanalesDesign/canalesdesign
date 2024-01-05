@@ -3,6 +3,7 @@ import localFont from 'next/font/local';
 import './globals.css';
 import CookieBanner from './components/cookies/CookieBanner';
 import GoogleAnalytics from './components/analytics/GoogleAnalytics';
+import { GoogleTagManager } from '@next/third-parties/google';
 
 const camphor = localFont({
   src: [
@@ -38,6 +39,7 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${camphor.variable}`}>
       <GoogleAnalytics GA_MEASUREMENT_ID="G-JFSET3TREL" />
+      <GoogleTagManager gtmId="GTM-NJS3R648" />
       <body className="font-sans bg-neutrals-500 lp__body">
         {children}
         <CookieBanner />
