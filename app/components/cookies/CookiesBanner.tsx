@@ -15,6 +15,11 @@ export default function CookiesBanner() {
     setCookie('localConsent', 'true', {});
   };
 
+  const rejectCookie = () => {
+    setShowConsent(true);
+    setCookie('localConsent', 'true', {});
+  };
+
   if (showConsent) {
     return null;
   }

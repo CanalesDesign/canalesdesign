@@ -1,5 +1,4 @@
 'use client';
-import CookiesBanner from './components/cookies/CookiesBanner';
 import BenefitsSection from './components/organisms/benefits_section/BenefitsSection';
 import CTASection from './components/organisms/cta_section/CTASection';
 import CustomersSection from './components/organisms/customers_section/CustomersSection';
@@ -18,7 +17,6 @@ export default function Home() {
       <FAQSection />
       <CTASection />
       <FooterSection />
-      <CookiesBanner />
     </main>
   );
 }

@@ -22,7 +22,7 @@ export default function GoogleBadge() {
         {GoogleBadgeContent.map(({ id, headline, body, link }) => {
           return (
             <div className="google__reviews--link" key={id}>
-              <p className="body__x-sm flex gap-1 text-primary-700 tracking-widest">
+              <p className="body__x-sm flex gap-1 text-primary-700 tracking-wider">
                 {headline}
                 <strong>
                   <Link href="#reviews" scroll={true}>
