@@ -31,7 +31,7 @@ export default function FooterSection() {
                 </p>
                 <div className="links__wrapper flex gap-3 items-center mt-5">
                   <Link
-                    className="uppercase text-x-sm tracking-widest font-bold"
+                    className="link__portfolio uppercase text-x-sm tracking-widest font-bold"
                     href={item.path}
                     rel="noopener noreferrer"
                     target="_blank"

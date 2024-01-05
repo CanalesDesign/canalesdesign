@@ -27,7 +27,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/components/organisms/cta_section/CTAData.js"
+    "app/components/organisms/cta_section/CTAData.js",
+    "app/components/analytics/GTMScript.tsx"
   ],
   "exclude": ["node_modules"]
 }
