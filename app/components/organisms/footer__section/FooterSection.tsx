@@ -37,13 +37,31 @@ export default function FooterSection() {
                     {item.cta}
                   </Link>
                   <span className="instagram">
-                    <Link href={item.instagrampath}>{item.instagramicon}</Link>
+                    <Link
+                      href={item.instagrampath}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      {item.instagramicon}
+                    </Link>
                   </span>
                   <span className="linkedin">
-                    <Link href={item.linkedinpath}>{item.linkedinicon}</Link>
+                    <Link
+                      href={item.linkedinpath}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      {item.linkedinicon}
+                    </Link>
                   </span>
                   <span className="facebook">
-                    <Link href={item.facebookpath}>{item.facebookicon}</Link>
+                    <Link
+                      href={item.facebookpath}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      {item.facebookicon}
+                    </Link>
                   </span>
                 </div>
               </div>
@@ -57,7 +75,12 @@ export default function FooterSection() {
                 <ul className="text__sm tracking-wide text-primary-500">
                   <li className="flex gap-1">
                     email:
-                    <Link className="text-secondary-500" href={item.emaillink}>
+                    <Link
+                      className="text-secondary-500"
+                      href={item.emaillink}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       {item.email}
                     </Link>
                   </li>
@@ -66,6 +89,8 @@ export default function FooterSection() {
                     <Link
                       className="text-secondary-500"
                       href={item.whatsapplink}
+                      rel="noopener noreferrer"
+                      target="_blank"
                     >
                       {item.whatsapp}
                     </Link>
@@ -75,6 +100,8 @@ export default function FooterSection() {
                     <Link
                       className="text-secondary-500"
                       href={item.telegramlink}
+                      rel="noopener noreferrer"
+                      target="_blank"
                     >
                       {item.telegram}
                     </Link>
