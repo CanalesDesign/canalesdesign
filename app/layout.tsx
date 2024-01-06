@@ -38,8 +38,10 @@ export default function RootLayout({
   return (
     <html lang="pt-BR" className={`${camphor.variable}`}>
       <GoogleTagManager gtmId="GTM-NJS3R648" />
-      <body className="font-sans bg-neutrals-500 lp__body">{children}</body>
-      <CookieEyesBanner />
+      <body className="font-sans bg-neutrals-500 lp__body">
+        {children}
+        <CookieEyesBanner />
+      </body>
     </html>
   );
 }
