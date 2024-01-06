@@ -119,3 +119,25 @@ a:hover {
 .links__wrapper svg {
   fill: #eb6439;
 }
+
+/*Cookie Eyes Banner*/
+.cky-consent-container {
+  border-radius: 12px !important;
+}
+
+.cky-consent-container .cky-consent-bar {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: none !important;
+}
+
+.cky-consent-bar .cky-banner-btn-close {
+  top: 12px !important;
+  right: 12px !important;
+}
+
+.cky-btn {
+  border-radius: 8px !important;
+  letter-spacing: 0.65px !important;
+}
