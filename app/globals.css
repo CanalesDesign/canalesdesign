@@ -140,4 +140,5 @@ a:hover {
 .cky-btn {
   border-radius: 8px !important;
   letter-spacing: 0.65px !important;
+  transition: all 400ms ease-in-out !important;
 }
