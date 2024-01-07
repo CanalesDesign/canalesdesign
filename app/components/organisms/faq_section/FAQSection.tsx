@@ -9,7 +9,7 @@ export default function FAQSection() {
         {FAQIntro.map(({ id, overline, headline }) => {
           return (
             <div className="faq__section--intro mb-16" key={id}>
-              <p className="text__overline">{overline}</p>
+              <p className="text__overline text-primary-900">{overline}</p>
               <h2 className="heading__2 text-primary-900">
                 <Balancer>{headline}</Balancer>
               </h2>
@@ -27,7 +27,7 @@ export default function FAQSection() {
                   className="faq__section--card bg-primary-200 rounded-xl py-10 px-8"
                   key={id}
                 >
-                  <span className="number text-[2.5rem] leading-[2.5rem] text-primary-500">
+                  <span className="number text-[2.5rem] leading-[2.5rem] text-primary-700">
                     {number}
                   </span>
                   <h3 className="heading__3 mt-6 mb-4">{question}</h3>

@@ -29,8 +29,7 @@ export default function HeroSection() {
               >
                 <div className="hero__section--content-copy lg:w-1/2">
                   <p className="text__overline">{overline}</p>
-                  <h1 className="heading__1 lg:hidden">{headline}</h1>
-                  <h1 className="heading__1 hidden lg:inline">
+                  <h1 className="heading__1">
                     <Balancer>{headline}</Balancer>
                   </h1>
                   <p className="body__xlarge mt-6 lg:mt-8">

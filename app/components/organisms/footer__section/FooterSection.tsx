@@ -43,6 +43,7 @@ export default function FooterSection() {
                       href={item.instagrampath}
                       rel="noopener noreferrer"
                       target="_blank"
+                      aria-label="{item.instagramlinklabel}"
                     >
                       {item.instagramicon}
                     </Link>
@@ -52,6 +53,7 @@ export default function FooterSection() {
                       href={item.linkedinpath}
                       rel="noopener noreferrer"
                       target="_blank"
+                      aria-label="{item.linkedinlinklabel}"
                     >
                       {item.linkedinicon}
                     </Link>
@@ -61,6 +63,7 @@ export default function FooterSection() {
                       href={item.facebookpath}
                       rel="noopener noreferrer"
                       target="_blank"
+                      aria-label="{item.facebooklinklabel}"
                     >
                       {item.facebookicon}
                     </Link>
@@ -116,9 +119,9 @@ export default function FooterSection() {
             {NextContent.map((item) => {
               return (
                 <div className="footer__next--content" key={item.id}>
-                  <h5 className="text-x-sm text-primary-700 mb-2 tracking-wider">
+                  <p className="text-x-sm text-primary-700 mb-2 tracking-wider">
                     {item.headline}
-                  </h5>
+                  </p>
                   <Image
                     src={item.logo}
                     alt={item.alt}

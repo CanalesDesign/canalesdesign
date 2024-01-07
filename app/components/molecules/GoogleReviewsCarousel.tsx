@@ -5,7 +5,6 @@ import { Pagination, Autoplay } from 'swiper/modules';
 import { Reviews } from '../organisms/reviews_section/GoogleReviewsData';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import Balancer from 'react-wrap-balancer';
 import GoogleCard from './GoogleCard';
 
 export default function GoogleReviewsCarousel() {

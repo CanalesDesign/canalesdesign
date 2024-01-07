@@ -10,7 +10,7 @@ export default function BenefitsSection() {
           {BenefitsContent.map(({ id, overline, headline, body }) => {
             return (
               <div className="intro__content" key={id}>
-                <p className="text__overline">{overline}</p>
+                <p className="text__overline text-primary-900">{overline}</p>
                 <h2 className="heading__2 text-primary-900">
                   <Balancer>{headline}</Balancer>
                 </h2>

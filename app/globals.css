@@ -35,7 +35,7 @@
   }
 
   .text__overline {
-    @apply text-sm-mobile lg:text-base text-primary-700 tracking-widest uppercase mb-10 lg:mb-12;
+    @apply text-sm-mobile lg:text-base text-primary-500 tracking-widest uppercase mb-10 lg:mb-12;
   }
 
   .body__base {

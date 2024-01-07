@@ -12,7 +12,7 @@ export default function CustomersSection() {
               className="customers__section--intro flex flex-col items-center"
               key={id}
             >
-              <p className="text__overline">{overline}</p>
+              <p className="text__overline text-primary-900">{overline}</p>
               <h2 className="heading__2 text-primary-900 text-center">
                 <Balancer>{headline}</Balancer>
               </h2>
